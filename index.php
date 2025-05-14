@@ -1,11 +1,25 @@
 <?php
 
+// Sesto Selfwork
+
+for ($i= 1; $i <= 100; $i++) { 
+    if ($i % 3 == 0 && $i % 5 == 0 ){
+        echo "HACKADEMY \n";
+    }elseif($i % 3 == 0) {
+        echo "PHP \n";
+    }elseif($i % 5 == 0){
+        echo "JAVASCRIPT \n";
+    }else{
+        echo "$i\n";
+    };
+};
+
+
 // Quinto Selfwork
 
 $numeri = [4,7,8,3,2,6,11,30];
 $counter =  0;
 $sum = 0;
-
 
 foreach ($numeri as $numero) {
     if($numero % 2 == 0){
