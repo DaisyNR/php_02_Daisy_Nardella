@@ -1,5 +1,22 @@
 <?php
 
+// Quinto Selfwork
+
+$numeri = [4,7,8,3,2,6,11,30];
+$counter =  0;
+$sum = 0;
+
+
+foreach ($numeri as $numero) {
+    if($numero % 2 == 0){
+        $sum += $numero;
+        $counter++;
+    }
+}
+$media = $sum / $counter;
+echo "La media è ".$media."\n";
+
+
 // Quarto Selfwork
 $users = [
   ['name' => 'Davide', 'surname' => 'Cariola', 'gender' => 'NB'],
